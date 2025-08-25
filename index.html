@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shree Raam Mandir Wijchen — Under Construction</title>
+  <meta name="description" content="Official website of Shree Raam Mandir Wijchen is under construction. Jai Shree Ram.">
+  <style>
+    :root{
+      --saffron:#ffb100;
+      --deep:#d97706;
+      --cream:#fff8ee;
+      --text:#2b2b2b;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 800px at 50% -10%, var(--saffron), transparent 70%),
+        linear-gradient(180deg, var(--cream), #ffffff);
+      display:flex;align-items:center;justify-content:center;padding:24px;
+    }
+    .card{
+      width:min(820px, 100%);
+      background:#fff;
+      border-radius:20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+      padding: clamp(20px, 4vw, 36px);
+      text-align:center;
+      border: 2px solid rgba(217, 119, 6, .15);
+    }
+    .logo{
+      width:84px;height:84px;margin-inline:auto 12px;margin-bottom:14px;
+    }
+    .logo svg{width:100%;height:100%}
+    h1{
+      margin:0 0 8px 0;
+      font-size: clamp(24px, 4vw, 36px);
+      letter-spacing:.3px;
+    }
+    .subtitle{
+      margin:0 0 18px 0;
+      color:#555;
+      font-size: clamp(14px, 2.6vw, 18px);
+    }
+    .badge{
+      display:inline-block;
+      background: linear-gradient(90deg, var(--saffron), var(--deep));
+      color:#fff;padding:8px 14px;border-radius:999px;
+      font-weight:600;letter-spacing:.3px;
+      margin:10px 0 18px 0;
+    }
+    p{line-height:1.6;margin:0 0 14px 0}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+    .btn{
+      padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600;border:2px solid #eee;
+      transition:.2s ease; display:inline-flex; align-items:center; gap:8px;
+    }
+    .btn.primary{background:var(--saffron);border-color:var(--deep);color:#1a1a1a}
+    .btn:hover{transform: translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.07)}
+    footer{margin-top:18px;color:#666;font-size:13px}
+    .socials{display:flex;gap:12px;justify-content:center;margin-top:8px}
+    .socials a{color:#444;text-decoration:none;border-bottom:1px dashed rgba(0,0,0,.2)}
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="logo" aria-hidden="true">
+      <!-- simple diya icon -->
+      <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0" stop-color="#ffb100"/>
+            <stop offset="1" stop-color="#d97706"/>
+          </linearGradient>
+        </defs>
+        <path d="M32 6c5 6 5 11 0 17-5-6-5-11 0-17z" fill="url(#g)"/>
+        <path d="M10 36c9 14 35 14 44 0 2-3-1-6-5-6H15c-4 0-7 3-5 6z" fill="#f4e3c2" stroke="#d1b892" stroke-width="2"/>
+        <circle cx="32" cy="36" r="6" fill="url(#g)"/>
+      </svg>
+    </div>
+    <h1>Shree Raam Mandir Wijchen</h1>
+    <p class="subtitle">🙏 Jai Shree Ram</p>
+    <div class="badge">Website Under Construction</div>
+    <p>Our new official website at <strong>shreeraammandir.nl</strong> is being prepared.</p>
+    <p>We’ll soon share darshan timings, events, media and ways to support the Mandir online.</p>
+    <div class="buttons">
+      <a class="btn" href="https://www.facebook.com/MandirWijchen" target="_blank" rel="noopener">Facebook</a>
+      <a class="btn" href="https://www.instagram.com/MandirWijchen" target="_blank" rel="noopener">Instagram</a>
+      <a class="btn primary" href="#" onclick="return false;">Donate (coming soon)</a>
+    </div>
+    <footer>© Shree Raam Mandir Wijchen — All rights reserved.</footer>
+  </main>
+</body>
+</html>
