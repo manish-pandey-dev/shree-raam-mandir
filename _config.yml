@@ -1,0 +1,25 @@
+title: "Shree Raam Mandir Wijchen"
+description: "Official website of Shree Raam Mandir Wijchen — darshan timings, events, media and donations."
+url: "https://shreeraammandir.nl"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: classic
+  social_links:
+    - platform: facebook
+      user_url: https://www.facebook.com/MandirWijchen
+    - platform: instagram
+      user_url: https://www.instagram.com/MandirWijchen
+
+header_pages:
+  - pages/over-mandir.md
+  - pages/programma.md
+  - pages/media.md
+  - pages/donaties.md
+  - pages/contact.md
+
+collections:
+  events:
+    output: true
+    permalink: /programma/:path/
